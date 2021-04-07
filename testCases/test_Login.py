@@ -60,7 +60,7 @@ class Test_001_Login:
             assert False
 
 
-#pytest -v -s testCases\test_Login.py
+#py.test -v -s testCases\test_Login.py
 
 #pytest -v -s testCases\test_Login.py --browser chrome
 #pytest -v -s testCases\test_Login.py --browser firefox
