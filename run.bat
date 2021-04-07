@@ -1,1 +1,1 @@
-py.test -s -v -n=2 -m "sanity or regression" --capture=tee-sys --html=./Reports/reporttest.html testCases/ --browser chrome
+pytest -s -v -n=2 testCases\test_addCustomer.py  --browser chrome
